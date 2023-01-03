@@ -3,8 +3,17 @@
     font-family: 'Archivo';
 }
 
+a{
+    font-size: large;
+    text-decoration: none;
+}
+
 .bg-primary {
     background-color: #024FE7 !important;
+}
+
+.text-primary{
+    color: #D6DAE1 !important
 }
 
 body {
@@ -29,9 +38,28 @@ h1 {
 
 }
 
-.culmn{
-    position: static;
-    top: 0
+.fa-linkedin{
+    color: white;
+}
+
+.fa-github{
+    color: white;
+}
+
+.fa-phone{
+    color: white
+}
+
+.fa-whatsapp{
+    color: white
+}
+
+.fa-location-arrow{
+    color: white
+}
+
+.fa-envelope{
+    color: white
 }
 
 
@@ -41,5 +69,7 @@ h1 {
     position: relative;
     padding-top: 300px;
     padding-bottom: 190px;
-    width:100%;
+    width:100%; 
 }
+
+
