@@ -3,6 +3,10 @@
     font-family: 'Archivo';
 }
 
+.bg-primary {
+    background-color: #024FE7 !important;
+}
+
 body {
     background: #D6DAE1 !important;
 
@@ -18,9 +22,21 @@ h1 {
 
 }
 
+.navbar-brand{
+    margin-left:auto; 
+    margin-right:auto;
+    width:45%;
+
+}
+
+.culmn{
+    position: static;
+    top: 0
+}
+
 
 .home{
-    background: url(assets/main-img.png) no-repeat scroll  center center;
+    background: url(assets/main_teste.jpeg) no-repeat scroll  center center;
     background-size: cover;
     position: relative;
     padding-top: 300px;
