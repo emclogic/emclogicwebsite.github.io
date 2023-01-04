@@ -16,26 +16,16 @@ a{
     color: #D6DAE1 !important
 }
 
-.text-servicos{
-    color:  #02359B !important;
-    padding-top: 20px;
-    padding-bottom: 20px;    
+.text-dark-blue{
+    color: #02359B !important;
 }
 
 body {
     background: #D6DAE1 !important;
-
 }
 
-p {
-    color:  #02359B;
-    font-weight: bold;
-}
 
-h1 {
-    color: #0d0d0d
-
-}
+/* NavBar */
 
 .navbar-brand{
     margin-left:auto; 
@@ -44,11 +34,149 @@ h1 {
 
 }
 
+.titulos-navbar{
+    color:  #02359B !important;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
+
+/* Início */
+
+.bg-image-home{
+    background: url(assets/main_image.jpeg) no-repeat scroll  center center;
+    background-size: cover;
+    position: relative;
+    padding-top: 325px;
+    padding-bottom: 325px;
+    width:100%;
+    height: 100%;
+    filter: blur(3px) brightness(35%);
+}
+
+
+.home-text{
+    position: absolute;
+    padding-top: 35px;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    font-weight: bold;
+}
+
+/* Serviços */
+
+.container-services{
+    padding-left: 0px;
+}
+
+.features_item{
+    display: inline-block;
+    margin: 40px;
+    padding: 10px;
+}
+
+.services-text{
+    transform: translate(35%,-80%);
+    width: 70%;
+}
+
+.services-exp{
+    transform: translate(0%,-60%);
+}
+
+.services-list{
+    list-style: none ;
+    transform: translate(-10%,-20%);
+}
+
+/* Áreas de Atuação */
+
+.img-areas{
+    height: auto;
+    max-width: 50%;
+}
+
+
+.text-areas{
+    width: 100%;
+}
+
+/* Contato */
+
+.footer{
+    background-color: #024FE7 !important;
+    padding-bottom: 20px;
+    position: relative;
+    padding-top: 0px;
+}
+
+.text-item-contato{
+    width: 100%;
+    transform: translate(10%,-20%);
+}
+
+.fale-conosco{
+    transform: translate(0%,75%);
+}
+
+.item-icon-contato{
+    transform: translate(5%, 40%);
+}
+.contato-item{
+    transform: translate(0%, 30%);
+}
+
+.contato-item-col2{
+    transform: translate(50%, -200%);
+}
+
+.contato-logo-redes{
+    transform: translate(60%,-40%);
+}
+
+.linkedin-icon{
+    transform: translate(9%,0%);
+}
+.github-icon{
+    transform: translate(12%,-100%);
+}
+
+.youtube-icon{
+    transform: translate(15%,-200%);
+}
+
+
+/* Ícones */
+
+.fa-linux{
+    color:#02359B;
+    
+}
+
+.fa-book{
+    color:#02359B;
+    
+}
+
+.fa-microchip{
+    color:#02359B;
+    
+}
+
+.fa-arrow-right{
+    color:#02359B;
+}
+
 .fa-linkedin{
     color: white;
 }
 
 .fa-github{
+    color: white;
+}
+
+.fa-youtube{
     color: white;
 }
 
@@ -69,25 +197,5 @@ h1 {
 }
 
 
-.bg-image-home{
-    background: url(assets/main_image.jpeg) no-repeat scroll  center center;
-    background-size: cover;
-    position: relative;
-    padding-top: 300px;
-    padding-bottom: 300px;
-    width:100%;
-    height: 100%;
-    filter: blur(3px) brightness(35%);
-}
 
-
-.home-text{
-    position: absolute;
-    padding-top: 35px;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-weight: bold;
-}
 

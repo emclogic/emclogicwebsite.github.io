@@ -42,7 +42,7 @@
 
         <!--Home page style-->
         
-        <div class="culmn">
+        <div class="content">
 
 
             <div class=" fixed-top d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-primary border-bottom border-top border-5 box-shadow">
@@ -55,10 +55,10 @@
                                 <a class="p-2 text-white" href="#home">Início</a>
                                 <a class="p-2 text-white" href="#services">Serviços</a>
                                 <a class="p-2 text-white" href="#area">Áreas</a>
-                                <a class="p-2 text-white" href="#tec">Tecnologia</a>
+                                <a class="p-2 text-white" href="#tec">Tecnologias</a>
                                 <a class="p-2 text-white" href="#client">Clientes e Parceiros</a>
-                                <a class="p-2 text-white" href="https://medium.com/">Blog</a>
                                 <a class="p-2 text-white" href="#contact">Contato</a>
+                                <a class="p-2 text-white" href="https://medium.com/">Blog</a>
                         </ul>
                     </div>
                 </div> 
@@ -76,11 +76,8 @@
                                 <div class="hello_slid">
                                     <div class="slid_item"> 
                                         <div class="texts">
-                                            <h1 class="text-white">Viabilizamos produtos inovadores atuando em treinamentos, 
-                                                consultorias e desenvolvimento de Softwares Embarcados. </h1>
-                                            <!-- <h4 class="text-white" align="center" >
-                                                A Emc Logic é uma empresa especialista em <strong>desenvolvimento de sistemas computacionais para dispositivos embarcados</strong> incorporando as melhores práticas de desenvolvimento e os mais atuais softwares open source para construir soluções de software em <strong> equipamentos eletrônicos industriais e de consumo</strong> que demandem interação com <strong>hardware, periféricos, displays e conectividade</strong>.
-                                            </h4> -->
+                                            <h1 class="text-white">Viabilizamos produtos inovadores atuando em treinamento, 
+                                                consultoria e desenvolvimento de Softwares Embarcados. </h1>
                                         </div>
                                     </div><!-- End off slid item -->
                                 </div>
@@ -92,101 +89,187 @@
 
 
 
-            <section id="services" class="services">
+            <section id="services" class="services fix border-top border-5">
                 <div class="container">
-                    <h1 class="text-servicos text-center"> Nossos serviços</h1>
-
+                    <h1 class="titulos-navbar text-center"> Serviços</h1>
                 </div>
+                <div class="container-services">
+                    <div class="row">
+                            <div class="col-md-4">
+                                <div class="features_item sm-m-top-30">
+                                    <div class="services-icon"><i class="fab fa-linux fa-4x"></i>
+                                    </div>
+                                    <div class="services-text">
+                                        <h3 class="text-dark-blue">Desenvolvimento de Software para Linux Embarcado</h3>
+                                    </div>
+                                    <p class="services-exp" align="justify"> 
+                                        Desenvolvimento de Software em Linux Embarcado para dipositivos que demandam interfaces ricas, alta conectividade e necessidade de integração com diversos periféricos. 
+                                    </p>
+                                    <ul class="services-list">
+                                    <li><i class="fa fa-arrow-right roomy-10"></i> Programação em <strong>C, C++, Python e Shell Script.</strong></li>
+                                    <li><i class="fa fa-arrow-right roomy-10"></i> Personalização e otimização de images com <strong>Yocto Project.</strong></li>
+                                    <li><i class="fa fa-arrow-right roomy-10"></i> Desvolvimento de interfaces gráficas para <strong>displays TFT ou LVDS.</strong></li>
+                                    <li><i class="fa fa-arrow-right roomy-10"></i> Otimização do <strong>tempo de Boot.</strong></li>
+                                    <li><i class="fa fa-arrow-right roomy-10"></i> Desenvolvimento de <strong>BSPs.</strong></li>
+                                    <li><i class="fa fa-arrow-right roomy-10"></i> Modificação e configuração de <strong>Device-Tree para processadores ARM.</strong></li>
+                                    <li><i class="fa fa-arrow-right roomy-10"></i> Preparação do <strong>ambiente de programação e compilação cruzada.</strong></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="features_item sm-m-top-30">
+                                    <div class="services-icon"><i class="fa fa-microchip fa-4x"></i>
+                                    </div>
+                                    <div class="services-text">
+                                        <h3 class="text-dark-blue">Desenvolvimento de Firmware para Microcontroladores  </h3>
+                                    </div>
+                                    <p class="services-exp" align="justify">
+                                        Desenvolvimento de firmware para microcontroladores de 8 a 64 bits (STM32, Microchip, Texas, NXP, Renesas e etc) garantindo o melhor desempenho para o seu produto.
+                                    </p>
+                                     <ul class="services-list">
+                                        <li><i class="fa fa-arrow-right roomy-10"></i> Software para sistemas em <strong>Baremetal</strong> ou <strong>RTOS.</strong></li>
+                                        <li><i class="fa fa-arrow-right roomy-10"></i> Redução de footprint em 
+                                            memória e otimização do consumo de energia.</li>
+                                        <li><i class="fa fa-arrow-right roomy-10"></i> Configuração de periféricos como <strong>UART, I2C, PWM, GPIO, DMA e CAN</strong> além de desenvolvimento de drivers</li>
+                                        <li><i class="fa fa-arrow-right roomy-10"></i> Arquitetura modular e desenvolivmento com camadas de abstraçao - <strong>HAL</strong></li>
+                                        <li><i class="fa fa-arrow-right roomy-10"></i> Analisadores estáticos de código, testes unitários e versionamento de código</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="features_item sm-m-top-30">
+                                    <div class="services-icon"><i class="fa fa-book fa-4x"></i>
+                                    </div>
+                                    <div class="services-text">
+                                        <h3 class="text-dark-blue">Consultoria e Treinamentos sob Demanda</h3>
+                                    </div>
+                                    <p class="services-exp" align="justify">
+                                        Análise de projetos considerando as melhores estratégias de desenvolvimento e qualidade sempre alinhando requisitos que atendam as necessidades do mercado como custo, tempo e inovação. 
+                                    </p>
+                                    <ul class="services-list">
+                                    <li><i class="fa fa-arrow-right roomy-10"></i> Qual a <strong>melhor arquitetura para seu projeto</strong>?</li>
+                                    <li><i class="fa fa-arrow-right roomy-10"></i> Quais melhores componentes e tecnologias?</li>
+                                    <li><i class="fa fa-arrow-right roomy-10"></i> Quais caminhos para produção de software embarcado com <strong>rapidez, segurança e velocidade</strong>?</li>
+                                    <li><i class="fa fa-arrow-right roomy-10"></i> Gerenciamento do conhecimento</li>
+                                    <li><i class="fa fa-arrow-right roomy-10"></i> Gestão de <strong>licenças de software</strong></li>
+                                    <li><i class="fa fa-arrow-right roomy-10"></i> <strong>Treinamentos sob demanda</strong></li>
+                                    </ul>
+                                </div>
+                            </div> 
+                    </div><!-- End off row -->
+                </div><!-- End off container -->
             </section>
 
             <section id="area">
                 <div class="container">
-                    <p>area de atuacao</p>
+                    <h1 class="titulos-navbar text-center"> Áreas de Atuação</h1>
+                    <div class="container align-items-center">
+                        <div class="row">
+                          <div class="col-sm ">
+                            <img src="assets/Icone_Controle_de_Acesso_preto.svg" class="img-areas">
+                            <p class="text-areas">Máquinas Industriais</p>
+                          </div>
+                          <div class="col-sm">
+                            <img src="assets/Icone Tec Agricola azul.png" class="img-areas">
+                            <p class="text-areas"> Tecnologias Agrícolas</p>
+                          </div>
+                          <div class="col-sm">
+                            <img src="assets/Icone Controle de Acesso azul.png" class="img-areas">
+                            <p class="text-areas">Controle de Acesso</p>
+                          </div>
+                          <div class="col-sm">
+                            <img src="assets/Icone Equip Medicos azul.png" class="img-areas">
+                            <p class="text-areas">Equipamentos Médicos</p>
+                          </div>
+                          <div class="col-sm">
+                            <img src="assets/Icone Equip Laboratorio 2 azul.png" class="img-areas">
+                            <p class="text-areas">Equipamentos de Laboratório</p>
+                          </div>
+                          <div class="col-sm">
+                            <img src="assets/Icone IOT azul.png" class="img-areas">
+                            <p class="text-areas">Internet das Coisas IoT</p>
+                          </div>
+                        </div>
+                      </div>
                 </div>
             </section>
 
             <section id="tec">
                 <div class="container">
-                    <p>tecnologias</p>
-                    </div>
+                    <h1 class="titulos-navbar text-center">Tecnologias</h1>
+                </div>
                 
             </section>
 
             <section id="client">
                 <div class="container">
-                    <p>clientes e parceiros</p>
-                    </div>
+                    <h1 class="titulos-navbar text-center">Clientes e Parceiros</h1>
+                </div>
                 
             </section>
 
-            <footer id="contact" class="footer action-lage p-top-80 bg-primary">
-                <!--<div class="action-lage"></div>-->
+            <footer id="contact" class="footer">
                 <div class="container">
+                    <!-- <h5 class="fale-conosco text-white">Fale conosco</h5> -->
                     <div class="row">
                         <div>
-                            <div class="col-md-6">
-                                <div>
-                                    <h5 class="text-white">Contato</h5>
-                                    <div class="contato_item m-top-30">
-                                        <div class="item_icon"><i class="fa fa-location-arrow"></i></div>
-                                        <div class="widget_ab_item_text ">
-                                            <h6 class="text-white">Localização :</h6>
-                                            <p class="text-white">
-                                               Itápolis - São Paulo - Brasil
-                                            </p>
-                                        </div>
+                            <div class="fale-conosco col-md-6">
+                                <div class="contato-item ">
+                                    <div class="item-icon-contato"><i class="fa fa-location-arrow"></i></div>
+                                    <div class="text-item-contato">
+                                        <h6 class="text-white">Localização :</h6>
+                                        <p class="text-white">
+                                           Itápolis - São Paulo - Brasil
+                                        </p>
                                     </div>
-                                    <div class="contato_item m-top-30">
-                                        <div class="item_icon"><i class="fa fa-phone"></i></div>
-                                        <div class="text_item">
-                                            <h6 class="text-white">Telefone :</h6>
-                                            <p class="text-white">+55 16 93618-1941</p>
-                                        </div>
+                                </div>
+                                <div class="contato-item">
+                                    <div class="item-icon-contato"><i class="fa fa-phone"></i></div>
+                                    <div class="text-item-contato">
+                                        <h6 class="text-white">Telefone :</h6>
+                                        <p class="text-white">+55 16 93618-1941</p>
                                     </div>
+                                </div>
 
-                                    <div class="contato_item m-top-30">
-                                        <div class="item_icon"><i class="fab fa-whatsapp"></i></div>
-                                        <div class="text_item">
-                                            <h6 class="text-white">WhatsApp :</h6>
-                                            <p class="text-white">+55 16 93618-1941</p>
-                                        </div>
+                                <div class="contato-item-col2">
+                                    <div class="item-icon-contato"><i class="fab fa-whatsapp"></i></div>
+                                    <div class="text-item-contato">
+                                        <h6 class="text-white">WhatsApp :</h6>
+                                        <p class="text-white">+55 16 93618-1941</p>
                                     </div>
+                                </div>
 
-                                    <div class="contato_item m-top-30">
-                                        <div class="item_icon align-text-top"><i class="fa fa-envelope"></i></div>
-                                        <div class="text_item">
-                                            <h6 class="text-white">E-mail :</h6>
-                                            <p class="text-white">contato+web@emc-logic.com</p>
-                                        </div>
+                                <div class="contato-item-col2 ">
+                                    <div class="item-icon-contato align-text-top"><i class="fa fa-envelope"></i></div>
+                                    <div class="text-item-contato">
+                                        <h6 class="text-white">E-mail :</h6>
+                                        <p class="text-white">contato@emc-logic.com</p>
                                     </div>
-                                </div><!-- End off widget item -->
+                                </div>     
                             </div><!-- End off col-md-3 -->
 
-                            <div class = "col-md-6 m-top-20 m-start-10">
-                                <div class="widget_newsletter sm-m-top-50">
+                            <div class=" contato-logo-redes">
                                     
-                                    <div class="m-top-10">
-           
-                                        <img src="assets/logo_white.png" class="logo" alt="">
-                                        
-                                        <p class="text-white"> Viabilizando Tecnologias Embarcadas</p>
-                                    </div>
-                                    <ul class="list-inline m-top-20">
-                                        <li><a href="https://www.linkedin.com/company/emc-logic"><i class="fab fa-linkedin "></i></a></li>        
-                                        <li><a href="https://github.com/emclogic"><i class="fab fa-github "></i></a></li>
-                                    </ul>
+                                <div class="m-top-10">
+       
+                                    <img src="assets/logo_white.png" class="logo" alt="">
+                                    
+                                    <p class="text-white"> Viabilizando Tecnologias Embarcadas</p>
+                                </div>
+                                <div class="linkedin-icon"><a href="https://www.linkedin.com/company/emc-logic"><i class="fab fa-linkedin "></i></a></div> 
+                                <div class="github-icon"><a href="https://github.com/emclogic"><i class="fab fa-github "></i></a></div>
+                                <div class="youtube-icon"><a href="https://www.youtube.com/@emclogic246"><i class="fab fa-youtube "></i></a></div>
 
-                                </div><!-- End off widget item -->
-                            </div><!-- End off col-md-3 -->
+                            </div><!-- End off widget item -->
                         </div>
                     </div>
                 </div>
-                <div class="fix bg-mega text-center p-top-40 p-bottom-30 m-top-80">
-                    <div class="col-md-12">
-                        <p class="wow fadeInRight text-white" data-wow-duration="1s">
+                <div class="text-center">
+                        <p class="text-white">
                             Emc Logic 2023. All Rights Reserved - v2.0
                         </p>
-                    </div>
                 </div>
             </footer>
 
