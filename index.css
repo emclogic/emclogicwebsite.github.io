@@ -22,6 +22,7 @@ a{
 
 body {
     background: #D6DAE1 !important;
+    height: 50%;
 }
 
 
@@ -30,7 +31,7 @@ body {
 .navbar-brand{
     margin-left:auto; 
     margin-right:auto;
-    width:45%;
+    width:60%;
 
 }
 
@@ -82,10 +83,12 @@ body {
 }
 
 .services-exp{
+    color: black;
     transform: translate(0%,-60%);
 }
 
 .services-list{
+    color: black;
     list-style: none ;
     transform: translate(-10%,-20%);
 }
@@ -93,13 +96,36 @@ body {
 /* Áreas de Atuação */
 
 .img-areas{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     height: auto;
-    max-width: 50%;
+    max-width: 30%;
 }
 
 
 .text-areas{
+    color:black;
+    font-style: bold;
     width: 100%;
+}
+
+/* Tecnologias */
+
+.img-tec{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+    max-width: 45%;
+}
+
+.img-tec-linux{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+    max-width: 30%; 
 }
 
 /* Contato */
@@ -107,32 +133,28 @@ body {
 .footer{
     background-color: #024FE7 !important;
     padding-bottom: 20px;
-    position: relative;
-    padding-top: 0px;
+    width: 100%;
+
 }
 
-.text-item-contato{
-    width: 100%;
-    transform: translate(10%,-20%);
+.logo-redes-contato{
+    text-align: start;
 }
 
 .fale-conosco{
-    transform: translate(0%,75%);
+    color: white;
+    text-align: center;
+}
+.foot-note{
+    color: white;
+    text-align: center;
+    vertical-align: text-bottom;
+    transform: translate(0%,130%);
 }
 
-.item-icon-contato{
-    transform: translate(5%, 40%);
-}
-.contato-item{
-    transform: translate(0%, 30%);
-}
-
-.contato-item-col2{
-    transform: translate(50%, -200%);
-}
 
 .contato-logo-redes{
-    transform: translate(60%,-40%);
+    transform: translate(60%,0%);
 }
 
 .linkedin-icon{
@@ -144,7 +166,7 @@ body {
 
 .youtube-icon{
     transform: translate(15%,-200%);
-}
+} 
 
 
 /* Ícones */
