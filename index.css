@@ -25,6 +25,8 @@ body {
     height: 50%;
 }
 
+html { scroll-padding-top: 100px; }
+
 
 /* NavBar */
 
