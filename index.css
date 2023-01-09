@@ -69,10 +69,6 @@ html { scroll-padding-top: 100px; }
 
 /* Serviços */
 
-#services{
-    max-height: 115vh;
-}
-
 .container-services{
     padding-left: 0px;
 }
@@ -80,7 +76,8 @@ html { scroll-padding-top: 100px; }
 .features_item{
     display: inline-block;
     margin: 40px;
-    padding: 10px;
+    padding: 0px;
+    max-height: 45vh;
 }
 
 .services-text{
