@@ -31,7 +31,7 @@ body {
 .navbar-brand{
     margin-left:auto; 
     margin-right:auto;
-    width:60%;
+    width:48%;
 
 }
 
@@ -67,6 +67,10 @@ body {
 
 /* Serviços */
 
+#services{
+    max-height: 115vh;
+}
+
 .container-services{
     padding-left: 0px;
 }
@@ -95,6 +99,10 @@ body {
 
 /* Áreas de Atuação */
 
+#area{
+    min-height: 65vh;
+}
+
 .img-areas{
     margin-left: auto;
     margin-right: auto;
@@ -111,6 +119,10 @@ body {
 }
 
 /* Tecnologias */
+
+#tec{
+    min-height: 57vh;
+}
 
 .img-tec{
     margin-left: auto;
@@ -133,6 +145,7 @@ body {
 .footer{
     background-color: #024FE7 !important;
     padding-bottom: 20px;
+    padding-top: 20px;
     width: 100%;
 
 }
