@@ -59,11 +59,8 @@ html { scroll-padding-top: 115px; }
 
 .home-text{
     position: absolute;
-    padding-top: 60px;
-    width: 75%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -25%);
+    width: 60%;
+    transform: translate(40%, -200%);
     font-weight: bold;
 }
 
