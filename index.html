@@ -17,12 +17,18 @@
         gtag('config', 'G-1E3H7MMKCF');
     </script>
 
+
+
     <meta charset="utf-8">
-    <title>Emc Logic</title>
+    <title>Emc Logic - Viabilizando Tecnologias Embarcadas</title>
     <meta name="description" content="Viabilizando Tecnologias Embarcadas">
     <meta name="keywords"
         content="linux embarcado, sistemas embarcados, build system, python, yocto, openembedded, firmware, open source, microcontroladores, microprocessadores, qt, qml, linux, bootloader, kernel, u-boot, shell script, ISOBUS, node.js, yocto project, buildroot, linux kernel, 
         assembly, C/C++, C, C++, consultoria linux, consultoria embarcados, treinamento, desenvolvimento de software, rtos, freertos, zephyr, device driver">
+    <meta name="keywords"
+        content="Embedded Linux, Embedded systems, build system, python, yocto, openembedded, firmware, open source, microcontrollers, mircroprocessors, qt, qml, linux, bootloader, kernel, u-boot, shell script, ISOBUS, node.js, yocto project, buildroot, linux kernel, 
+        assembly, C/C++, C, C++, consulting , software consulting , trainning, software development, rtos, freertos, zephyr, device driver">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Emc Logic">
 
@@ -34,9 +40,14 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+    <script src="js/translate.js"> </script>
 
     <link rel="stylesheet" type="text/css" href="index.css">
 
@@ -58,19 +69,18 @@
             </a>
 
             <nav class=" nav-teste my-2 my-md-0 mr-md-3">
-                <a class="p-2 text-white" href="#home">Início</a>
-                <a class="p-2 text-white" href="#sobre">Sobre</a>
-                <a class="p-2 text-white" href="#services">Serviços</a>
-                <a class="p-2 text-white" href="#area">Áreas</a>
-                <a class="p-2 text-white" href="#tec">Tecnologias</a>
+                <a id=init_txt class="p-2 text-white" href="#home">Início</a>
+                <a id=about_txt class="p-2 text-white" href="#sobre">Sobre</a>
+                <a id=about_txt class="p-2 text-white" href="#services">Serviços</a>
+                <a id=about_txt class="p-2 text-white" href="#area">Áreas</a>
+                <a id=about_txt class="p-2 text-white" href="#tec">Tecnologias</a>
                 <!-- a class="p-2 text-white" href="#client">Clientes e Parceiros</a> -->
-                <a class="p-2 text-white" href="#contact">Contato</a>
+                <a id=about_txt class="p-2 text-white" href="#contact">Contato</a>
                 <!-- <a class="p-2 text-white" href="https://medium.com/">Blog</a> -->
 
-                <select class="selectpicker" data-width="fit">
-                    <option data-content='<span class="flag-icon flag-icon-br"></span> Portugues'>Portugues</option>
-                    <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
-                </select>
+
+                <button id="button_br" type="button" class="btn btn-primary fi fi-br "></button>
+                <button id="button_us" type="button" class="btn btn-primary fi fi-us "></button>
 
             </nav>
         </div>

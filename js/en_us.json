@@ -1,0 +1,10 @@
+{
+    "content": {
+        "init_txt": "Begin",
+        "about_txt": "About",
+        "services_txt": "Services",
+        "area_txt": "Areas",
+        "tec_txt": "Tecnologies",
+        "contact_txt": "Contact"
+    }
+}
