@@ -20,7 +20,7 @@
 
 
     <meta charset="utf-8">
-    <title>Emc Logic - Viabilizando Tecnologias Embarcadas</title>
+    <title id="main_title">Emc Logic - Viabilizando Tecnologias Embarcadas</title>
     <meta name="description" content="Viabilizando Tecnologias Embarcadas">
     <meta name="keywords"
         content="linux embarcado, sistemas embarcados, build system, python, yocto, openembedded, firmware, open source, microcontroladores, microprocessadores, qt, qml, linux, bootloader, kernel, u-boot, shell script, ISOBUS, node.js, yocto project, buildroot, linux kernel, 
@@ -65,7 +65,7 @@
         <div class="fixed-top d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-primary border-bottom border-top border-5 box-shadow">
             <a class="navbar-brand navbar-expand-md" href="#brand">
                 <img src="assets/logo_white.png" class="logo">
-                <p class="text-white center-block"> Viabilizando Tecnologias Embarcadas</p>
+                <p id="logo_navbar_text" class="text-white center-block"> Viabilizando Tecnologias Embarcadas</p>
             </a>
 
             <nav class=" nav-teste my-2 my-md-0 mr-md-3">
@@ -89,7 +89,7 @@
     <section id="home" class="home border-0 align-text-center">
         <div class="row">
             <div class="bg-image-home border-bottom border-5"></div>
-            <h1 class="home-text text-center">Consultoria, Treinamento e Desenvolvimento de Software Embarcado para produtos inovadores.</h1>
+            <h1 id=image_home_text class="home-text text-center">Consultoria, Treinamento e Desenvolvimento de Software Embarcado para produtos inovadores.</h1>
             
         </div>
     </section>
@@ -97,10 +97,10 @@
     <section id="sobre" class="fix border-top border-5">
         <div class="container">
             <div class="row">
-                <h1 class="col-md-12 titulos-navbar text-center">Sobre a Emc Logic</h1>
+                <h1 id="about_title"class="col-md-12 titulos-navbar text-center">Sobre a Emc Logic</h1>
             </div>
             <div class="row">
-                <p class="col-md-12" align="justify"></p> Fundada em 2017, a Emc Logic é uma empresa que presta serviços 
+                <p id="about_text" class="col-md-12" align="justify"> Fundada em 2017, a Emc Logic é uma empresa que presta serviços 
                     de consultoria, treinamento e desenvolvimento de software para Sistemas Embarcados microcontrolados e 
                     microprocessados. Viabilizamos um rápido time to market para dispositivos embarcados 
                     incorporando as melhores práticas de desenvolvimento e migrando projetos para os mais atuais softwares open source.
@@ -116,7 +116,7 @@
 
     <section id="services" class="fix border-top border-5">
         <div class="container">
-            <h1 class="titulos-navbar text-center"> Serviços</h1>
+            <h1 id="services_title" class="titulos-navbar text-center"> Serviços</h1>
         </div>
         <div class="container-services">
             <div class="row">
@@ -125,31 +125,31 @@
                         <div class="services-icon"><i class="fab fa-linux fa-4x"></i>
                         </div>
                         <div class="services-text">
-                            <h3 class="text-dark-blue">Desenvolvimento de Software para Linux Embarcado</h3>
+                            <h3 id="linux_title" class="text-dark-blue">Desenvolvimento de Software para Linux Embarcado</h3>
                         </div>
-                        <p class="services-exp" align="justify">
+                        <p id="linux_descrip" class="services-exp" align="justify">
                             Desenvolvimento de Software em Linux Embarcado para dipositivos que demandam interfaces
                             ricas, assim como alta conectividade e necessidade de integração com diversos periféricos.
                         </p>
                         <ul class="services-list">
-                            <li><i class="fa fa-arrow-right roomy-10"></i> Programação em <strong>Assembly, C/C++, Python e Shell
-                            script.</strong></li>
-                            <li><i class="fa fa-arrow-right roomy-10"></i> Personalização e otimização de imagens com
-                                <strong>Yocto Project e Buildroot.</strong>
+                            <li><i class="fa fa-arrow-right roomy-10"></i><a id="linux_l1"><small>Programação em <strong>Assembly, C/C++, Python e Shell
+                                script.</strong></small></a></li>
+                            <li><i class="fa fa-arrow-right roomy-10"></i><a id="linux_l2"><small>Personalização e otimização de imagens com
+                                <strong>Yocto Project e Buildroot.</strong></small></a>
                             </li>
-                            <li><i class="fa fa-arrow-right roomy-10"></i> Desvolvimento de interfaces gráficas para
-                                <strong>displays TFT ou LVDS.</strong>
+                            <li><i class="fa fa-arrow-right roomy-10"></i><a id="linux_l3"><small>Desenvolvimento de interfaces gráficas para
+                                <strong>displays TFT ou LVDS.</strong></small></a>
                             </li>
-                            <li><i class="fa fa-arrow-right roomy-10"></i> Otimização do <strong>tempo de Boot.</strong>
+                            <li><i class="fa fa-arrow-right roomy-10"></i><a id="linux_l4"><small>Otimização do <strong>tempo de Boot.</strong></small></a>
                             </li>
-                            <li><i class="fa fa-arrow-right roomy-10"></i> Desenvolvimento de <strong>BSPs.</strong>
+                            <li><i class="fa fa-arrow-right roomy-10"></i><a id="linux_l5"><small>Desenvolvimento de <strong>BSPs.</strong></small></a>
                             </li>
-                            <li><i class="fa fa-arrow-right roomy-10"></i> Desenvolvimento de <strong>drivers de dispositivos</strong> Linux</li>
-                            <li><i class="fa fa-arrow-right roomy-10"></i> Modificação e configuração de
-                                <strong>Device-Tree</strong> para processadores ARM e RISC-V.
+                            <li><i class="fa fa-arrow-right roomy-10"></i><a id="linux_l6"><small>Desenvolvimento de <strong>drivers de dispositivos</strong> Linux</small></small></li>
+                            <li><i class="fa fa-arrow-right roomy-10"></i><a id="linux_l7"><small>Modificação e configuração de
+                                <strong>Device-Tree</strong> para processadores ARM e RISC-V.</small></a>
                             </li>
-                            <li><i class="fa fa-arrow-right roomy-10"></i> Preparação do <strong>ambiente de programação
-                                    e compilação cruzada.</strong></li>
+                            <li><i class="fa fa-arrow-right roomy-10"></i><a id="linux_l8"><small>Preparação do <strong>ambiente de programação
+                                    e compilação cruzada.</strong></small></a></li>
                         </ul>
                     </div>
                 </div>
@@ -159,27 +159,27 @@
                         <div class="services-icon"><i class="fa fa-microchip fa-4x"></i>
                         </div>
                         <div class="services-text">
-                            <h3 class="text-dark-blue">Desenvolvimento de Firmware para Microcontroladores </h3>
+                            <h3 id="firmw_title" class="text-dark-blue">Desenvolvimento de Firmware para Microcontroladores </h3>
                         </div>
-                        <p class="services-exp" align="justify">
+                        <p id="firmw_descrip" class="services-exp" align="justify">
                             Desenvolvimento de firmware para microcontroladores de 8 a 64 bits (STM32, Microchip, Texas,
                             NXP, Renesas e etc) garantindo o melhor desempenho para o seu produto.
                         </p>
                         <ul class="services-list">
-                            <li><i class="fa fa-arrow-right roomy-10"></i> Firmware para sistemas em
-                                <strong>Baremetal ou RTOS.</strong>
+                            <li><i class="fa fa-arrow-right roomy-10"></i><a id="firmw_l1"><small>Firmware para sistemas em
+                                <strong>Baremetal ou RTOS.</strong></small></a> 
                             </li>
-                            <li><i class="fa fa-arrow-right roomy-10"></i> Redução de <strong>footprint</strong> em
-                                memória e <strong>otimização</strong> do consumo de energia.</li>
-                                <li><i class="fa fa-arrow-right roomy-10"></i> Desenvolvimento de <strong>drivers e bibliotecas de dispositivos.</strong></li>
-                            <li><i class="fa fa-arrow-right roomy-10"></i> Configuração de periféricos como
-                                <strong>UART, I2C, PWM, GPIO, DMA e CAN.</strong>
+                            <li><i class="fa fa-arrow-right roomy-10"></i><a id="firmw_l2"><small>Redução de <strong>footprint</strong> em
+                                memória e <strong>otimização</strong> do consumo de energia.</small></a></li>
+                            <li><i class="fa fa-arrow-right roomy-10"></i><a id="firmw_l3"><small>Desenvolvimento de <strong>drivers e bibliotecas de dispositivos.</strong></small></a></li>
+                            <li><i class="fa fa-arrow-right roomy-10"></i> <a id="firmw_l4"><small>Configuração de periféricos como
+                            <strong>UART, I2C, PWM, GPIO, DMA e CAN.</strong></small></a>
                             </li>
-                            <li><i class="fa fa-arrow-right roomy-10"></i> Arquitetura modular e desenvolvimento com
-                                camadas de abstração - <strong>HAL</strong></li>
-                            <li><i class="fa fa-arrow-right roomy-10"></i> Analisadores estáticos de código e testes
-                                unitários.</li>
-                            <li><i class="fa fa-arrow-right roomy-10"></i> <strong>Versionamento</strong> de código e <strong>deploy seguro.</strong></li>
+                            <li><i class="fa fa-arrow-right roomy-10"></i><a id="firmw_l5"><small>Arquitetura modular e desenvolvimento com
+                                camadas de abstração - <strong>HAL</strong></small></a></li>
+                            <li><i class="fa fa-arrow-right roomy-10"></i><a id="firmw_l6"><small>Analisadores estáticos de código e testes
+                                unitários.</small></a></li>
+                            <li><i class="fa fa-arrow-right roomy-10"></i><a id="firmw_l7"><small><strong>Versionamento</strong> de código e <strong>deploy seguro.</strong></small></a></li>
                         </ul>
                     </div>
                 </div>
@@ -189,25 +189,25 @@
                         <div class="services-icon"><i class="fa fa-book fa-4x"></i>
                         </div>
                         <div class="services-text">
-                            <h3 class="text-dark-blue">Consultoria e Treinamentos sob Demanda</h3>
+                            <h3 id="consul_title"class="text-dark-blue">Consultoria e Treinamentos sob Demanda</h3>
                         </div>
-                        <p class="services-exp" align="justify">
+                        <p id="consul_descrip" class="services-exp" align="justify">
                             Assessoramento para o seu projeto a fim de encontrar estratégias de desenvolvolvimento que estejam alinhandas com as necessidades do mercado. 
                             Treinamentos sob demanda da equipe e gestão de conhecimento.
                         </p>
                         <ul class="services-list">
-                            <li><i class="fa fa-arrow-right roomy-10"></i> Análise da melhor <strong>arquitetura de hardware </strong> para seu
-                                    projeto.</li>
-                            <li><i class="fa fa-arrow-right roomy-10"></i> Escolha das melhores <strong>ferramentas e tecnologias </strong> 
-                                para seu projeto.</li>
-                            <li><i class="fa fa-arrow-right roomy-10"></i> Adequação da melhor estratégia para desenvolvimento de software
-                                embarcado <strong>rápido e seguro.</strong></li>
-                            <li><i class="fa fa-arrow-right roomy-10"></i> Documentação e Gestão de conhecimento</li>
-                            <li><i class="fa fa-arrow-right roomy-10"></i> Assessoria referente à <strong>licenças de
-                                    software livre</strong></li>
-                            <li><i class="fa fa-arrow-right roomy-10"></i> Treinamentos <strong>online e presenciais</strong> sob demanda da equipe do cliente.
+                            <li><i class="fa fa-arrow-right roomy-10"></i><a id="consul_l1"><small>Análise da melhor <strong>arquitetura de hardware </strong> para seu
+                                projeto.</small></a></li>
+                            <li><i class="fa fa-arrow-right roomy-10"></i><a id="consul_l2"><small>Escolha das melhores <strong>ferramentas e tecnologias </strong> 
+                                para seu projeto.</small></a></li>
+                            <li><i class="fa fa-arrow-right roomy-10"></i><a id="consul_l3"><small>Adequação da melhor estratégia para desenvolvimento de software
+                                embarcado <strong>rápido e seguro.</strong></small></a></li>
+                            <li><i class="fa fa-arrow-right roomy-10"></i><a id="consul_l4"><small>Documentação e Gestão de conhecimento.</small></a></li>
+                            <li><i class="fa fa-arrow-right roomy-10"></i><a id="consul_l5"><small>Assessoria referente à <strong>licenças de
+                                software livre.</strong></small></a></li>
+                            <li><i class="fa fa-arrow-right roomy-10"></i><a id="consul_l6"><small>Treinamentos <strong>online e presenciais</strong> sob demanda da equipe do cliente.</small></a>
                             </li>
-                            <li><i class="fa fa-arrow-right roomy-10"></i> Internalização gradual do desenvolvimento pela equipe do cliente.
+                            <li><i class="fa fa-arrow-right roomy-10"></i><a id="consul_l7"><small>Internalização gradual do desenvolvimento pela equipe do cliente.</small></a></li>
                         
                         </ul>
                     </div>
@@ -218,32 +218,32 @@
 
     <section id="area" class="fix border-top border-5">
         <div class="container">
-            <h1 class="titulos-navbar text-center"> Áreas de Atuação</h1>
+            <h1 id="areas_title" class="titulos-navbar text-center"> Áreas de Atuação</h1>
             <div class="container align-items-center">
                 <div class="row">
                     <div class="col-sm-4 ">
                         <img src="assets/Icone Maquinas Industriais azul.png" class="img-areas">
-                        <p class="text-areas text-center"><strong>Máquinas Industriais</strong></p>
+                        <p id="area_indust" class="text-areas text-center"><strong>Máquinas Industriais</strong></p>
                     </div>
                     <div class="col-areas col-sm-4">
                         <img src="assets/Icone Tec Agricola azul.png" class="img-areas">
-                        <p class="text-areas text-center"> <strong>Tecnologias Agrícolas</strong></p>
+                        <p id="area_agric" class="text-areas text-center"> <strong>Tecnologias Agrícolas</strong></p>
                     </div>
                     <div class="col-areas col-sm-4">
                         <img src="assets/Icone Controle de Acesso azul.png" class="img-areas">
-                        <p class="text-areas text-center"><strong>Controle de Acesso</strong></p>
+                        <p id="area_acces" class="text-areas text-center"><strong>Controle de Acesso</strong></p>
                     </div>
                     <div class="col-areas col-sm-4">
                         <img src="assets/Icone Equip Medicos azul.png" class="img-areas">
-                        <p class="text-areas text-center"><strong>Equipamentos Médicos</strong></p>
+                        <p id="area_med" class="text-areas text-center"><strong>Equipamentos Médicos</strong></p>
                     </div>
                     <div class="col-areas col-sm-4">
                         <img src="assets/Icone Equip Laboratorio 2 azul.png" class="img-areas">
-                        <p class="text-areas text-center"><strong>Equipamentos de Laboratório</strong></p>
+                        <p id="area_lab" class="text-areas text-center"><strong>Equipamentos de Laboratório</strong></p>
                     </div>
                     <div class="col-areas col-sm-4">
                         <img src="assets/Icone IOT azul.png" class="img-areas">
-                        <p class="text-areas text-center"><strong>Internet das Coisas IoT</strong></p>
+                        <p id="area_iot" class="text-areas text-center"><strong>Internet das Coisas (IoT)</strong></p>
                     </div>
                 </div>
             </div>
@@ -252,7 +252,7 @@
 
     <section id="tec" class="fix border-top border-5">
         <div class="container">
-            <h1 class="titulos-navbar text-center">Principais Tecnologias</h1>
+            <h1 id="tec_title" class="titulos-navbar text-center">Principais Tecnologias</h1>
             <div class="container align-items-center">
                 <div class="row">
                     <div class="col-sm-4 ">
@@ -296,14 +296,14 @@
                         
                         <div class="col-sm-6">
                             <div class="col-sm-6">
-                                <h6 class="text-white"><i class="fa fa-location-arrow"></i>&emsp;Localização :</h6>
-                                <p class="text-white">Itápolis - SP - Brasil</p>
+                                <h6 id="local_title" class="text-white"><i class="fa fa-location-arrow"></i>&emsp;Localização :</h6>
+                                <p id="itapolis_text" class="text-white">Itápolis - SP - Brasil</p>
                             </div>
                         </div>
 
                         <div class="col-sm-6">
                             <div class="col-sm-6">
-                                <h6 class="text-white"><i class="fa fa-phone"></i>&emsp;Telefone :</h6>
+                                <h6 id="phone_title" class="text-white"><i class="fa fa-phone"></i>&emsp;Telefone :</h6>
                                 <p class="text-white">+55 16 93618-1941</p>
                             </div>
                         </div>
@@ -334,7 +334,7 @@
                             
                         <div class="m-top-10">
                             <img src="assets/logo_white.png" class="logo" alt="">
-                            <p class="text-white"> Viabilizando Tecnologias Embarcadas</p>
+                            <p id="logo_fnote_text" class="text-white"> Viabilizando Tecnologias Embarcadas</p>
                             <div class="row">
                                 <div class="col-sm-1"><a href="https://www.linkedin.com/company/emc-logic"><i class="fab fa-linkedin "></i></a></div> 
                                 <div class="col-sm-1"><a href="https://github.com/emclogic"><i class="fab fa-github "></i></a></div>
