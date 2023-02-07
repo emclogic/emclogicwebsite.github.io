@@ -273,4 +273,154 @@ $("#document").ready(function () {
         
     }) 
 
+    navigator.geolocation.getCurrentPosition(function(position) {
+        // Get the latitude and longitude
+        var lat = position.coords.latitude;
+        var lng = position.coords.longitude;
+        console.log(lat);
+        console.log(lng);
+        
+        fetch('http://ip-api.com/json/')
+          
+          .then(function(response) {
+            return response.json();
+          })
+          .then(function(data) {
+            // Check if the user is from Brazil
+            if (data.countryCode !== 'BR') {
+                // EN_US 
+                $("#main_title").html(en_us.content.main_title);
+                /* Navbar */
+                $("#logo_navbar_text").html(en_us.content.logo_navbar_text);
+                $("#init_txt").html(en_us.content.init_txt);
+                $("#about_txt").html(en_us.content.about_txt);
+                $("#services_txt").html(en_us.content.services_txt);
+                $("#area_txt").html(en_us.content.area_txt);
+                $("#tec_txt").html(en_us.content.tec_txt);
+                $("#contact_txt").html(en_us.content.contact_txt);
+                /* Home */
+                $("#image_home_text").html(en_us.content.image_home_text);
+                /* About */
+                $("#about_title").html(en_us.content.about_title);
+                $("#about_text").html(en_us.content.about_text);
+                /* Services */
+                $("#services_title").html(en_us.content.services_title);
+                    /* Linux */
+                $("#linux_title").html(en_us.content.linux_title);
+                $("#linux_descrip").html(en_us.content.linux_descrip);
+                $("#linux_l1").html(en_us.content.linux_l1);
+                $("#linux_l2").html(en_us.content.linux_l2);
+                $("#linux_l3").html(en_us.content.linux_l3);
+                $("#linux_l4").html(en_us.content.linux_l4);
+                $("#linux_l5").html(en_us.content.linux_l5);
+                $("#linux_l6").html(en_us.content.linux_l6);
+                $("#linux_l7").html(en_us.content.linux_l7);
+                $("#linux_l8").html(en_us.content.linux_l8);
+                    /* Microcontrollers */
+                $("#firmw_title").html(en_us.content.firmw_title);
+                $("#firmw_descrip").html(en_us.content.firmw_descrip);
+                $("#firmw_l1").html(en_us.content.firmw_l1);
+                $("#firmw_l2").html(en_us.content.firmw_l2);
+                $("#firmw_l3").html(en_us.content.firmw_l3);
+                $("#firmw_l4").html(en_us.content.firmw_l4);
+                $("#firmw_l5").html(en_us.content.firmw_l5);
+                $("#firmw_l6").html(en_us.content.firmw_l6);
+                $("#firmw_l7").html(en_us.content.firmw_l7);
+                    /* Consulting */
+                $("#consul_title").html(en_us.content.consul_title);
+                $("#consul_descrip").html(en_us.content.consul_descrip);
+                $("#consul_l1").html(en_us.content.consul_l1);
+                $("#consul_l2").html(en_us.content.consul_l2);
+                $("#consul_l3").html(en_us.content.consul_l3);
+                $("#consul_l4").html(en_us.content.consul_l4);
+                $("#consul_l5").html(en_us.content.consul_l5);
+                $("#consul_l6").html(en_us.content.consul_l6);
+                $("#consul_l7").html(en_us.content.consul_l7);
+                /* Areas */
+                $("#areas_title").html(en_us.content.areas_title);
+                $("#areas_title").html(en_us.content.areas_title);
+                $("#area_indust").html(en_us.content.area_indust);
+                $("#area_agric").html(en_us.content.area_agric);
+                $("#area_acces").html(en_us.content.area_acces);
+                $("#area_med").html(en_us.content.area_med);
+                $("#area_lab").html(en_us.content.area_lab);
+                $("#area_iot").html(en_us.content.area_iot);
+                /* Technologies */
+                $("#tec_title").html(en_us.content.tec_title);
+                /* Footnote */
+                $("#logo_fnote_text").html(en_us.content.logo_fnote_text);
+                $("#local_title").html(en_us.content.local_title);
+                $("#phone_title").html(en_us.content.phone_title);
+                $("#itapolis_text").html(en_us.content.itapolis_text);
+            } else {
+                // PT_BR
+                $("#main_title").html(pt_br.content.main_title);
+                /* Barra de Navegação */
+                $("#logo_navbar_text").html(pt_br.content.logo_navbar_text);
+                $("#init_txt").html(pt_br.content.init_txt);
+                $("#about_txt").html(pt_br.content.about_txt);
+                $("#services_txt").html(pt_br.content.services_txt);
+                $("#area_txt").html(pt_br.content.area_txt);
+                $("#tec_txt").html(pt_br.content.tec_txt);
+                $("#contact_txt").html(pt_br.content.contact_txt);
+                /* Início */
+                $("#image_home_text").html(pt_br.content.image_home_text);
+                /* Sobre */
+                $("#about_title").html(pt_br.content.about_title);
+                $("#about_text").html(pt_br.content.about_text);
+                /* Serviços */
+                $("#services_title").html(pt_br.content.services_title);
+                    /* Linux */
+                $("#linux_title").html(pt_br.content.linux_title);
+                $("#linux_descrip").html(pt_br.content.linux_descrip);
+                $("#linux_l1").html(pt_br.content.linux_l1);
+                $("#linux_l2").html(pt_br.content.linux_l2);
+                $("#linux_l3").html(pt_br.content.linux_l3);
+                $("#linux_l4").html(pt_br.content.linux_l4);
+                $("#linux_l5").html(pt_br.content.linux_l5);
+                $("#linux_l6").html(pt_br.content.linux_l6);
+                $("#linux_l7").html(pt_br.content.linux_l7);
+                $("#linux_l8").html(pt_br.content.linux_l8);
+                    /* Microcontroladores */
+                $("#firmw_title").html(pt_br.content.firmw_title);
+                $("#firmw_descrip").html(pt_br.content.firmw_descrip);
+                $("#firmw_l1").html(pt_br.content.firmw_l1);
+                $("#firmw_l2").html(pt_br.content.firmw_l2);
+                $("#firmw_l3").html(pt_br.content.firmw_l3);
+                $("#firmw_l4").html(pt_br.content.firmw_l4);
+                $("#firmw_l5").html(pt_br.content.firmw_l5);
+                $("#firmw_l6").html(pt_br.content.firmw_l6);
+                $("#firmw_l7").html(pt_br.content.firmw_l7);
+                    /* Consultoria */
+                $("#consul_title").html(pt_br.content.consul_title);
+                $("#consul_descrip").html(pt_br.content.consul_descrip);
+                $("#consul_l1").html(pt_br.content.consul_l1);
+                $("#consul_l2").html(pt_br.content.consul_l2);
+                $("#consul_l3").html(pt_br.content.consul_l3);
+                $("#consul_l4").html(pt_br.content.consul_l4);
+                $("#consul_l5").html(pt_br.content.consul_l5);
+                $("#consul_l6").html(pt_br.content.consul_l6);
+                $("#consul_l7").html(pt_br.content.consul_l7);
+                /* Áreas */
+                $("#areas_title").html(pt_br.content.areas_title);
+                $("#area_indust").html(pt_br.content.area_indust);
+                $("#area_agric").html(pt_br.content.area_agric);
+                $("#area_acces").html(pt_br.content.area_acces);
+                $("#area_med").html(pt_br.content.area_med);
+                $("#area_lab").html(pt_br.content.area_lab);
+                $("#area_iot").html(pt_br.content.area_iot);
+                /* Tecnologias */
+                $("#tec_title").html(pt_br.content.tec_title);
+                /* Rodapé */
+                $("#logo_fnote_text").html(pt_br.content.logo_fnote_text);
+                $("#local_title").html(pt_br.content.local_title);
+                $("#phone_title").html(pt_br.content.phone_title);
+                $("#itapolis_text").html(pt_br.content.itapolis_text);
+            }
+          });
+      });
+
 });
+
+
+  
