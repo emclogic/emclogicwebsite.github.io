@@ -77,7 +77,7 @@ const en_us = {
         "tec_txt": "Technologies",
         "contact_txt": "Contact",
         /* Home */
-        "image_home_text": "Consulting, Training and Software Development for inovative Embedded products.",
+        "image_home_text": "Consulting, Training and Software Development for innovative Embedded products.",
         /* About */
         "about_title": "About us",
         "about_text": "Emc Logic was founded in  2017 and It’s a company that offers services of consulting, training and software development for Embedded Systems.Our objective is to achieve a fast time-to-market for devices by applying the best development practices while migrating projects to the latest open source softwares. We have experience in a wide range of fields, going from medical equipments to agricultural technologies. We are willing to help our clients to find fast, optimized and safe solutions.",
