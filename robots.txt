@@ -1,17 +1,1 @@
-User-agent:  *
-Disallow: /cgi-bin/
-Disallow: /1.0/
 
-Sitemap: https://www.emc-logic.com/sitemap.xml
-
-User-agent: Mediapartners-Google*
-Allow: /
-
-User-agent: Googlebot-Image
-Allow: /assets
-
-User-agent: Adsbot-Google
-Allow: /
-
-User-agent: Googlebot-Mobile
-Allow: /
